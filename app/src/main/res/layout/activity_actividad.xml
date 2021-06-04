@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actividad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8000000"
+    android:orientation="vertical"
+    android:paddingLeft="4dp"
+    android:paddingTop="16dp"
+    android:paddingRight="4dp"
+    android:paddingBottom="16dp">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:gravity="center"
+        android:text="Reservación para actividad"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/informacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informacion requerida"
+        android:gravity="center"
+        android:textColor="#FFFCFC"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/informacion0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete la siguiente información"
+        android:gravity="center"
+        android:textColor="#FFFCFC"
+        android:textStyle="italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/informacion4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Para qué asignatura es la reservación?"
+                android:textColor="#FFFCFC"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="340dp"
+                android:layout_height="59dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+
+            <TextView
+                android:id="@+id/informacion4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Para qué actividad es la reservacion?"
+                android:textColor="#FFFCFC"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:ignore="DuplicateIds" />
+
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="340dp"
+                android:layout_height="59dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/informacion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Especifique el horario:"
+                android:textColor="#FFFCFC"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/informacion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre del responsable de la reservación"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar Reservacion" />
+
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0"
+                android:background="#009688"
+                android:onClick="@string/button6"
+                android:text="@string/button6"
+                app:backgroundTint="#009688" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

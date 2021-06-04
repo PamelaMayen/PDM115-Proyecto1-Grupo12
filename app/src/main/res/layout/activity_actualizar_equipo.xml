@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:background="#FFFFFFFF"
+    android:stretchColumns="1" >
+
+    <TableRow>
+        <TextView
+            android:text="@string/generico"
+            android:textColor="#FF000000"
+            />
+        <EditText
+            android:id="@+id/editGenerico"
+            android:inputType="text"
+            android:maxLength="60" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/docente"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/editDocente"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/estado"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/editEstado"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/usuario"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/editUsuario"
+            android:inputType="text"
+            android:maxLength="60" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/hora"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/editHora"
+            android:inputType="text"
+            android:maxLength="60" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/codigo"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/editCodigo"
+            android:inputType="text"
+            android:maxLength="60" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/fecha"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/editFecha"
+            android:inputType="date"
+            android:maxLength="60" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="actualizar"
+            android:text="@string/actualizar" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/actualizarPHP"
+            android:onClick="servivioPHP"
+            android:text="@string/actualizarPHP" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="regresar"
+            android:text="@string/regresar" />
+    </TableRow>
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/listView1"> </ListView>
+</TableLayout>

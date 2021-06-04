@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:background="#FFFFFFFF"
+    android:stretchColumns="1" >
+
+    <TableRow>
+        <TextView
+            android:text="@string/nomAutor"
+            android:textColor="#FF000000"
+            />
+        <EditText
+            android:id="@+id/editNombreAutor"
+            android:inputType="text"
+            android:textColor="#FF000000"
+            android:maxLength="60" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/apeAutor"
+            android:textColor="#FF000000"/>
+        <EditText
+            android:id="@+id/editApeAutor"
+            android:layout_width="fill_parent"
+            android:textColor="#FF000000"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:onClick="insertarAutor"
+            android:text="@string/agregar" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="regresar"
+            android:text="@string/regresar" />
+    </TableRow>
+</TableLayout>

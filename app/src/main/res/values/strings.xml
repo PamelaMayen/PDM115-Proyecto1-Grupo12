@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Control de Inventario Móvil</string>
+
+    <!-- Acciones -->
+    <string name="actualizar">Actualizar</string>
+    <string name="actu">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="agregar">Agregar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="reservar">Reservar</string>
+    <string name="regresar">Regresar</string>
+    <string name="agregarPHP">Agregar local</string>
+    <string name="actualizarPHP">Actualizar local</string>
+    <string name="eliminarPHP">Eliminar local</string>
+
+    <!-- Crud de Documentos (libros) -->
+    <string name="nombreLibro">Nombre</string>
+    <string name="autor">Autor</string>
+    <string name="editorial">Editorial</string>
+    <string name="edicion">Edicion</string>
+    <string name="isbn">ISBN</string>
+    <string name="nombreLib">Nombre libro</string>
+    <string name="tipoP">Tipo producto</string>
+    <string name="nomAutor">Nombre</string>
+    <string name="apeAutor">Apellido</string>
+    <string name="nomIdioma">Nombre</string>
+    <string name="idioma">Idioma</string>
+    <string name="titulo">Titulo</string>
+    <string name="nomTipo">Nombre</string>
+    <string name="tipoCategoria">Tipo de categoria</string>
+
+    <!-- Crud de Equipos Informaticos -->
+    <string name="agregarE">Agregar</string>
+    <string name="tituloEq">Gestion de Equipos Informaticos</string>
+    <string name="generico">Equipo generico ID</string>
+    <string name="estado">Estado equipo</string>
+    <string name="usuario">Usuario</string>
+    <string name="hora">Hora ID</string>
+    <string name="codigo">Codigo equipo</string>
+    <string name="cod">Codigo:</string>
+    <string name="tipo">Tipo de equipo:</string>
+    <string name="fecha">Fecha de adquisicion:</string>
+    <string name="descargo">Lugar de descargo:</string>
+    <string name="modelo">Modelo:</string>
+    <string name="memoria">Memoria:</string>
+    <string name="cantidad">Cantidad de unidades:</string>
+    <string name="lista_modelos">Seleccione el modelo</string>
+    <string-array name="modelos">
+        <item>DELL</item>
+        <item>Toshiba</item>
+        <item>HP</item>
+        <item>Canon</item>
+        <item>Sony</item>
+    </string-array>
+
+    <!-- Botones y titulos -->
+    <string name="tv1">Lista de documentos disponibles</string>
+    <string name="tv2">Lista de equipos disponibles</string>
+    <string name="button1">Regresar</string>
+    <string name="button2">ReservarCiclo</string>
+    <string name="button4">ReservarActividad</string>
+    <string name="button5">Regresar</string>
+    <string name="button6">Regresar</string>
+    <string name="button3">Guardar Reservacion</string>
+
+    <string name="crudDocentes">CRUD DOCENTES</string>
+    <string name="agregarDocente">Agregar Docente</string>
+    <string name="docente">Docente</string>
+    <string name="docente1">Datos docente 1</string>
+    <string name="docente2">Datos docente 2</string>
+    <string name="docente3">Datos docente 3</string>
+    <string name="nombreDocente">Nombre:</string>
+    <string name="asignaturaDocente">Asignatura:</string>
+    <string name="horaInicioDocente">Hora inicio:</string>
+    <string name="horaFinDocente">Hora fin:</string>
+    <string name="hintAsignaturaDocente">Introduzca la asignatura que imparte</string>
+    <string name="hintNombreDocente">Introduzca su nombre</string>
+    <string name="hintHoraInicioDocente">Introduzca la hora que inicia su clase</string>
+    <string name="hintHoraFinDocente">Introduzca la hora que termina su clase</string>
+    <string name="btnAgregarDocenteFinalizar">Finalizar</string>
+    <string name="datosDocente">DATOS DOCENTE</string>
+    <string name="btnRegresarDatosDocente">Volver a CRUD Docentes</string>
+    
+    <!--Botones servicio web -->
+    <string name="formato_fecha">dd/mm/aaaa</string>
+    <string name="servicio_PHPexterno">Servicio PHP externo</string>
+    <string name="servicio_PHPlocal">Servicio PHP local</string>
+    <string name="servicio_PublicoUES">ESI Publico</string>
+    <string name="guardar">Guardar</string>
+    <string name="title_activity_actualizar_libro">ActualizarLibro</string>
+    <string name="title_activity_actualizar_equipo">ActualizarEquipo</string>
+</resources>

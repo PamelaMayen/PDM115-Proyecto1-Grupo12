@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyecto1">
+    <uses-permission android:name="android.permission.INTERNET" />"
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Proyecto1">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:name=".eliminarDocente"></activity>
+        <activity android:name=".EliminarEquipo" />
+        <activity android:name=".EliminarLibro" />
+        <activity android:name=".AgregarTipoProducto" />
+        <activity android:name=".AgregarIdioma" />
+        <activity android:name=".AgregarAutor" />
+        <activity android:name=".ActualizarEquipo" />
+        <activity android:name=".AgregarEquipo" />
+        <activity android:name=".ReservaEquipo" />
+        <activity android:name=".CrudEquipo" />
+        <activity android:name=".actualizarDocente" />
+        <activity android:name=".datosGuardadosDocente" />
+        <activity android:name=".agregarDocente" />
+        <activity android:name=".crudDocentes" />
+        <activity android:name=".Actividad" />
+        <activity android:name=".CicloCompleto" />
+        <activity android:name=".DetalleItem" />
+        <activity android:name=".Entidad" />
+        <activity android:name=".Adaptador" />
+        <activity android:name=".ReservarLibro" />
+        <activity android:name=".AgregarLibro" />
+        <activity android:name=".ActualizarLibro" />
+        <activity android:name=".CrudLibro" />
+        <activity android:name=".ActivityMenu" />
+        <activity android:name=".ActivityLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
